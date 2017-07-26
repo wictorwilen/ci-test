@@ -1,0 +1,25 @@
+{
+  "name": "ww-ci-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/app.js",
+  "scripts": {
+    "build": "node_modules/.bin/webpack",
+    "start": "node dist/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wictorwilen/ci-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wictorwilen/ci-test/issues"
+  },
+  "homepage": "https://github.com/wictorwilen/ci-test#readme",
+  "devDependencies": {
+    "ts-loader": "^2.3.2",
+    "typescript": "^2.4.2",
+    "webpack": "^3.4.1"
+  }
+}
